@@ -1,0 +1,67 @@
+.nouv {
+    margin-top: 20px;
+}
+
+.nouv button {
+    cursor: pointer;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background: none;
+    border: none;
+    font-weight: bold;
+}
+
+.nouv button:hover {
+    text-decoration: underline;
+    
+    color: #19ddd0;
+}
+
+.carre {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+
+.carre:hover {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.gauche {
+    margin-top: 15px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.centre {
+    margin-top: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.droite {
+    margin-top: 15px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 767px) {
+    .nouv {
+        margin-top: 20px;
+    }
+    .gauche {
+        width: 49%;
+        display: inline-block;
+        margin-right: 1px;
+    }
+    .droite {
+        width: 49%;
+        display: inline-block;
+        margin-right: 1px;
+    }
+    .centre {
+        width: 100%;
+    }
+}

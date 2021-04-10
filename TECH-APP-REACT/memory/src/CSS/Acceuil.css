@@ -1,0 +1,9 @@
+.Accueil {
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 746px) {
+    .Accueil {
+        margin-top: 85px;
+    }
+}

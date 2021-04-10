@@ -1,0 +1,209 @@
+nav {
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}
+
+/* CSS NOUVELLE NAVBAR */
+
+.navGauche {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30%;
+    margin: 0;
+}
+
+.navDroite {
+    display: inline-block;
+    width: 70%;
+}
+
+.navElt {
+    display: inline-block;
+    height: 100%;
+    width: 60%;
+}
+
+.navElt2 {
+    width: 40%;
+    display: inline-block;
+    height: 100%;
+}
+
+.rechercheBar {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.barre {
+    border-radius: 5px;
+    border: transparent;
+    box-sizing: border-box;
+}
+
+.barrebtn {
+    background-color: transparent;
+    border: transparent;
+}
+
+.barrebtn img {
+    width: 25px;
+}
+
+.divpanier {
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* FIN CSS NOUVELLE NABAR */
+
+.logo {
+    float: left;
+    height: 100%;
+    margin-right: 0;
+    width: 150px;
+    margin: 0;
+}
+
+.liste {
+    list-style-type: none;
+    background-color: black;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.items {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.items a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.items a:hover {
+    text-decoration: none;
+    color: #19ddd0;
+}
+
+.icon1 {
+    float: right;
+    width: 40px;
+    padding: 8px;
+}
+
+.btnNav {
+    display: none;
+}
+
+/* @media screen and (max-width: 545px) {
+    .liste {
+        flex-direction: column;
+        height: 310px;
+        width: 100%;
+    }
+    .items:nth-child(1) {
+        border-top: 1px solid #fff;
+        margin-top: 50px;
+    }
+    .items {
+        height: 50px;
+        width: 100%;
+        border-bottom: 1px solid #fff;
+        line-height: 50px;
+    }
+    .btnNav {
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        color: #fff;
+        cursor: pointer;
+    }
+    .icon1 {
+        background-color: black;
+        position: relative;
+        top: 365px;
+        width: 40px;
+        padding: 8px;
+    }
+} */
+
+@media screen and (max-width: 1165px) {
+    .liste {
+        flex-direction: column;
+        height: 350px;
+        width: 100%;
+    }
+    .items:nth-child(1) {
+        border-top: 1px solid #fff;
+        margin-top: 50px;
+    }
+    .items {
+        height: 60px;
+        width: 100%;
+        border-bottom: 1px solid #fff;
+        line-height: 50px;
+    }
+    .btnNav {
+        display: block;
+        color: #fff;
+        cursor: pointer;
+        float: right;
+        background-color: transparent;
+        border: transparent;
+        margin-top: 5px;
+    }
+    .btnNav img {
+        width: 40px;
+        transition: 0.5s all ease-in-out;
+    }
+    .btnNav img:hover {
+        transform: rotate(180deg);
+    }
+    .navGauche {
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+    .navDroite {
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+    .navElt {
+        display: block;
+        width: 100%;
+    }
+    .navElt2 {
+        width: 100%;
+        display: block;
+        padding: 5px;
+    }
+    .rechercheBar {
+        display: inline-block;
+        vertical-align: middle;
+        width: 75%;
+        margin: 0;
+        justify-content: center;
+    }
+    .divpanier {
+        display: inline-block;
+        vertical-align: middle;
+        width: 25%;
+        margin: 0;
+        justify-content: center;
+    }
+    .icon1 {
+        float: none;
+    }
+}
